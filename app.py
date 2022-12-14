@@ -4,7 +4,7 @@ import torch
 # Init is ran on server startup
 # Load your model to GPU as a global variable here using the variable name "model"
 def init():
-    ## TODO: initialize deforum model
+    ## TODO: initialize deforum model 
     global model
     
     device = 0 if torch.cuda.is_available() else -1
